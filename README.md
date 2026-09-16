@@ -8,7 +8,7 @@ C:\> TYPE ABOUT.TXT
   NAME ........ Bernardo Temponi
   ROLE ........ Security-focused developer
   TRAINING .... Pentest / offensive security
-  METHOD ...... AI-accelerated engineering: ship fast, verify everything
+  METHOD ...... AI-accelerated dev . fast, but verified
   SCHOOL ...... B.Sc. Computer Science @ PUC Minas
   LOCATION .... Belo Horizonte, BR
 ```
