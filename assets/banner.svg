@@ -20,6 +20,14 @@
     .bar { font-size: 13px; }
     .blink { animation: b 1.05s steps(1) infinite; }
     .flick { animation: f 6s linear infinite; }
+    @keyframes type { from { clip-path: inset(-10px 100% -10px 0); } to { clip-path: inset(-10px -20px -10px 0); } }
+    .l0 { animation: type 0.40s steps(8) 0.6s both; }
+.l1 { animation: type 1.43s steps(51) 1.6s both; }
+.l2 { animation: type 0.42s steps(15) 3.6s both; }
+.l3 { animation: type 1.90s steps(68) 4.4s both; }
+.l4 { animation: type 0.40s steps(10) 7.0s both; }
+.l5 { animation: type 1.60s steps(57) 7.6s both; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
     @keyframes b { 50% { opacity: 0; } }
     @keyframes f { 0%,96%,100% { opacity: 1; } 97% { opacity: .82; } 98% { opacity: 1; } 99% { opacity: .9; } }
   </style>
@@ -35,30 +43,12 @@
     <text class="big" x="40" y="96" fill="#39ff88" filter="url(#glow)">BERNARDO TEMPONI</text>
     <line x1="40" y1="116" x2="860" y2="116" stroke="#1f8f4e" stroke-dasharray="6 5"/>
     
-  <clipPath id="c0"><rect x="40" y="134" height="22" width="0">
-    <animate attributeName="width" begin="0.6s" dur="0.40s" values="0.0;10.2;20.4;30.6;40.8;51.0;61.2;71.4;820" calcMode="discrete" fill="freeze"/>
-  </rect></clipPath>
-  <text x="40" y="150" clip-path="url(#c0)" fill="#ffb000" filter="url(#glow)"><tspan fill="#1f8f4e">$ </tspan>whoami</text>
-  <clipPath id="c1"><rect x="40" y="159" height="22" width="0">
-    <animate attributeName="width" begin="1.6s" dur="1.43s" values="0.0;10.2;20.4;30.6;40.8;51.0;61.2;71.4;81.6;91.8;102.0;112.2;122.4;132.6;142.8;153.0;163.2;173.4;183.6;193.8;204.0;214.2;224.4;234.6;244.8;255.0;265.2;275.4;285.6;295.8;306.0;316.2;326.4;336.6;346.8;357.0;367.2;377.4;387.6;397.8;408.0;418.2;428.4;438.6;448.8;459.0;469.2;479.4;489.6;499.8;510.0;820" calcMode="discrete" fill="freeze"/>
-  </rect></clipPath>
-  <text x="40" y="175" clip-path="url(#c1)" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>security-focused developer // pentest in progress</text>
-  <clipPath id="c2"><rect x="40" y="189" height="22" width="0">
-    <animate attributeName="width" begin="3.6s" dur="0.42s" values="0.0;10.2;20.4;30.6;40.8;51.0;61.2;71.4;81.6;91.8;102.0;112.2;122.4;132.6;142.8;820" calcMode="discrete" fill="freeze"/>
-  </rect></clipPath>
-  <text x="40" y="205" clip-path="url(#c2)" fill="#ffb000" filter="url(#glow)"><tspan fill="#1f8f4e">$ </tspan>cat focus.txt</text>
-  <clipPath id="c3"><rect x="40" y="214" height="22" width="0">
-    <animate attributeName="width" begin="4.4s" dur="1.90s" values="0.0;10.2;20.4;30.6;40.8;51.0;61.2;71.4;81.6;91.8;102.0;112.2;122.4;132.6;142.8;153.0;163.2;173.4;183.6;193.8;204.0;214.2;224.4;234.6;244.8;255.0;265.2;275.4;285.6;295.8;306.0;316.2;326.4;336.6;346.8;357.0;367.2;377.4;387.6;397.8;408.0;418.2;428.4;438.6;448.8;459.0;469.2;479.4;489.6;499.8;510.0;520.2;530.4;540.6;550.8;561.0;571.2;581.4;591.6;601.8;612.0;622.2;632.4;642.6;652.8;663.0;673.2;683.4;820" calcMode="discrete" fill="freeze"/>
-  </rect></clipPath>
-  <text x="40" y="230" clip-path="url(#c3)" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>offensive security . AI-accelerated engineering . speed with rigor</text>
-  <clipPath id="c4"><rect x="40" y="244" height="22" width="0">
-    <animate attributeName="width" begin="7.0s" dur="0.40s" values="0.0;10.2;20.4;30.6;40.8;51.0;61.2;71.4;81.6;91.8;820" calcMode="discrete" fill="freeze"/>
-  </rect></clipPath>
-  <text x="40" y="260" clip-path="url(#c4)" fill="#ffb000" filter="url(#glow)"><tspan fill="#1f8f4e">$ </tspan>uname -a</text>
-  <clipPath id="c5"><rect x="40" y="269" height="22" width="0">
-    <animate attributeName="width" begin="7.6s" dur="1.60s" values="0.0;10.2;20.4;30.6;40.8;51.0;61.2;71.4;81.6;91.8;102.0;112.2;122.4;132.6;142.8;153.0;163.2;173.4;183.6;193.8;204.0;214.2;224.4;234.6;244.8;255.0;265.2;275.4;285.6;295.8;306.0;316.2;326.4;336.6;346.8;357.0;367.2;377.4;387.6;397.8;408.0;418.2;428.4;438.6;448.8;459.0;469.2;479.4;489.6;499.8;510.0;520.2;530.4;540.6;550.8;561.0;571.2;820" calcMode="discrete" fill="freeze"/>
-  </rect></clipPath>
-  <text x="40" y="285" clip-path="url(#c5)" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>B.Sc. Computer Science @ PUC Minas . Belo Horizonte, BR<tspan class="blink" fill="#39ff88"> _</tspan></text>
+  <text class="l0" x="40" y="150" fill="#ffb000" filter="url(#glow)"><tspan fill="#1f8f4e">$ </tspan>whoami</text>
+  <text class="l1" x="40" y="175" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>security-focused developer // pentest in progress</text>
+  <text class="l2" x="40" y="205" fill="#ffb000" filter="url(#glow)"><tspan fill="#1f8f4e">$ </tspan>cat focus.txt</text>
+  <text class="l3" x="40" y="230" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>offensive security . AI-accelerated engineering . speed with rigor</text>
+  <text class="l4" x="40" y="260" fill="#ffb000" filter="url(#glow)"><tspan fill="#1f8f4e">$ </tspan>uname -a</text>
+  <text class="l5" x="40" y="285" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>B.Sc. Computer Science @ PUC Minas . Belo Horizonte, BR<tspan class="blink" fill="#39ff88"> _</tspan></text>
   </g>
   <rect x="2" y="2" width="896" height="316" rx="9" fill="url(#scan)" pointer-events="none"/>
   <rect x="2" y="2" width="896" height="316" rx="9" fill="url(#vig)" pointer-events="none"/>
