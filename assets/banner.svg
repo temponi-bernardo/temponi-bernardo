@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-labelledby="t d">
   <title id="t">bernardo temponi</title>
-  <desc id="d">security-focused developer, pentest, ai-accelerated engineering, computer science at puc minas.</desc>
+  <desc id="d">security-focused developer: vulnerability analysis, secure development, ai-assisted engineering. computer science student at puc minas.</desc>
   <defs>
     <filter id="glow" x="-5%" y="-40%" width="110%" height="180%">
       <feGaussianBlur stdDeviation="1.6" result="b"/>
@@ -22,11 +22,11 @@
     .flick { animation: f 6s linear infinite; }
     @keyframes type { from { clip-path: inset(-10px 100% -10px 0); } to { clip-path: inset(-10px -20px -10px 0); } }
     .l0 { animation: type 0.40s steps(8) 0.6s both; }
-.l1 { animation: type 1.43s steps(51) 1.6s both; }
+.l1 { animation: type 1.23s steps(44) 1.6s both; }
 .l2 { animation: type 0.42s steps(15) 3.6s both; }
-.l3 { animation: type 1.90s steps(68) 4.4s both; }
+.l3 { animation: type 1.76s steps(63) 4.4s both; }
 .l4 { animation: type 0.40s steps(10) 7.0s both; }
-.l5 { animation: type 1.74s steps(62) 7.6s both; }
+.l5 { animation: type 1.68s steps(60) 7.6s both; }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
     @keyframes b { 50% { opacity: 0; } }
     @keyframes f { 0%,96%,100% { opacity: 1; } 97% { opacity: .82; } 98% { opacity: 1; } 99% { opacity: .9; } }
@@ -44,11 +44,11 @@
     <line x1="40" y1="116" x2="860" y2="116" stroke="#1f8f4e" stroke-dasharray="6 5"/>
     
   <text class="l0" x="40" y="150" fill="#ffb000" filter="url(#glow)"><tspan fill="#1f8f4e">$ </tspan>whoami</text>
-  <text class="l1" x="40" y="175" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>security-focused developer // pentest in progress</text>
+  <text class="l1" x="40" y="175" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>security-focused developer // open to work</text>
   <text class="l2" x="40" y="205" fill="#ffb000" filter="url(#glow)"><tspan fill="#1f8f4e">$ </tspan>cat focus.txt</text>
-  <text class="l3" x="40" y="230" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>offensive security . ai-accelerated engineering . speed with rigor</text>
+  <text class="l3" x="40" y="230" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>vulnerability analysis . secure dev . ai-assisted engineering</text>
   <text class="l4" x="40" y="260" fill="#ffb000" filter="url(#glow)"><tspan fill="#1f8f4e">$ </tspan>uname -a</text>
-  <text class="l5" x="40" y="285" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>b.sc. computer science @ puc minas . belo horizonte, mg - br<tspan class="blink" fill="#39ff88"> _</tspan></text>
+  <text class="l5" x="40" y="285" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>cs student @ puc minas (6th sem) . belo horizonte, mg - br<tspan class="blink" fill="#39ff88"> _</tspan></text>
   </g>
   <rect x="2" y="2" width="896" height="316" rx="9" fill="url(#scan)" pointer-events="none"/>
   <rect x="2" y="2" width="896" height="316" rx="9" fill="url(#vig)" pointer-events="none"/>

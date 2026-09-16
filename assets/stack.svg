@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="332" viewBox="0 0 900 332" role="img" aria-labelledby="t">
+  <title id="t">stack: python, linux, git/github, c, c++, javascript, java, flutter</title>
+  <defs>
+    <filter id="glow" x="-5%" y="-50%" width="110%" height="200%">
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" opacity=".3"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: ui-monospace,'SFMono-Regular','DejaVu Sans Mono',Menlo,Consolas,monospace; font-size: 16px; }
+    .blink { animation: bl 1.05s steps(1) infinite; }
+    @keyframes bl { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    .s0_0 { animation: on .05s steps(1) 0.30s both; }
+    .s0_1 { animation: on .05s steps(1) 0.36s both; }
+    .s0_2 { animation: on .05s steps(1) 0.42s both; }
+    .s0_3 { animation: on .05s steps(1) 0.48s both; }
+    .s0_4 { animation: on .05s steps(1) 0.54s both; }
+    .s0_5 { animation: on .05s steps(1) 0.60s both; }
+    .s0_6 { animation: on .05s steps(1) 0.66s both; }
+    .s0_7 { animation: on .05s steps(1) 0.72s both; }
+    .s0_8 { animation: on .05s steps(1) 0.78s both; }
+    .s0_9 { animation: on .05s steps(1) 0.84s both; }
+    .s1_0 { animation: on .05s steps(1) 0.55s both; }
+    .s1_1 { animation: on .05s steps(1) 0.61s both; }
+    .s1_2 { animation: on .05s steps(1) 0.67s both; }
+    .s1_3 { animation: on .05s steps(1) 0.73s both; }
+    .s1_4 { animation: on .05s steps(1) 0.79s both; }
+    .s1_5 { animation: on .05s steps(1) 0.85s both; }
+    .s1_6 { animation: on .05s steps(1) 0.91s both; }
+    .s1_7 { animation: on .05s steps(1) 0.97s both; }
+    .s1_8 { animation: on .05s steps(1) 1.03s both; }
+    .s2_0 { animation: on .05s steps(1) 0.80s both; }
+    .s2_1 { animation: on .05s steps(1) 0.86s both; }
+    .s2_2 { animation: on .05s steps(1) 0.92s both; }
+    .s2_3 { animation: on .05s steps(1) 0.98s both; }
+    .s2_4 { animation: on .05s steps(1) 1.04s both; }
+    .s2_5 { animation: on .05s steps(1) 1.10s both; }
+    .s2_6 { animation: on .05s steps(1) 1.16s both; }
+    .s2_7 { animation: on .05s steps(1) 1.22s both; }
+    .s2_8 { animation: on .05s steps(1) 1.28s both; }
+    .s3_0 { animation: on .05s steps(1) 1.05s both; }
+    .s3_1 { animation: on .05s steps(1) 1.11s both; }
+    .s3_2 { animation: on .05s steps(1) 1.17s both; }
+    .s3_3 { animation: on .05s steps(1) 1.23s both; }
+    .s3_4 { animation: on .05s steps(1) 1.29s both; }
+    .s3_5 { animation: on .05s steps(1) 1.35s both; }
+    .s4_0 { animation: on .05s steps(1) 1.30s both; }
+    .s4_1 { animation: on .05s steps(1) 1.36s both; }
+    .s4_2 { animation: on .05s steps(1) 1.42s both; }
+    .s4_3 { animation: on .05s steps(1) 1.48s both; }
+    .s4_4 { animation: on .05s steps(1) 1.54s both; }
+    .s4_5 { animation: on .05s steps(1) 1.60s both; }
+    .s5_0 { animation: on .05s steps(1) 1.55s both; }
+    .s5_1 { animation: on .05s steps(1) 1.61s both; }
+    .s5_2 { animation: on .05s steps(1) 1.67s both; }
+    .s5_3 { animation: on .05s steps(1) 1.73s both; }
+    .s5_4 { animation: on .05s steps(1) 1.79s both; }
+    .s5_5 { animation: on .05s steps(1) 1.85s both; }
+    .s6_0 { animation: on .05s steps(1) 1.80s both; }
+    .s6_1 { animation: on .05s steps(1) 1.86s both; }
+    .s6_2 { animation: on .05s steps(1) 1.92s both; }
+    .s6_3 { animation: on .05s steps(1) 1.98s both; }
+    .s6_4 { animation: on .05s steps(1) 2.04s both; }
+    .s6_5 { animation: on .05s steps(1) 2.10s both; }
+    .s7_0 { animation: on .05s steps(1) 2.05s both; }
+    .s7_1 { animation: on .05s steps(1) 2.11s both; }
+    .s7_2 { animation: on .05s steps(1) 2.17s both; }
+    @keyframes on { from { opacity: .08; } to { opacity: 1; } }
+  </style>
+  <rect x="1" y="1" width="898" height="330" rx="8" fill="#070b08" stroke="#1f8f4e" stroke-width="2"/>
+  <path d="M1 30 V9 a8 8 0 0 1 8 -8 H891 a8 8 0 0 1 8 8 V30 Z" fill="#0e1a12"/>
+  <line x1="1" y1="30" x2="899" y2="30" stroke="#1f8f4e" stroke-width="1.5"/>
+  <text x="20" y="20" fill="#1f8f4e" style="font-size:13px">c:\&gt; stack.exe /level</text>
+  <text x="880" y="20" fill="#1f8f4e" style="font-size:13px" text-anchor="end">8 modules loaded</text>
+  <text x="36" y="77" fill="#39ff88" filter="url(#glow)">python</text>
+  <rect class="s0_0" x="180" y="62" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s0_1" x="206" y="62" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s0_2" x="232" y="62" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s0_3" x="258" y="62" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s0_4" x="284" y="62" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s0_5" x="310" y="62" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s0_6" x="336" y="62" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s0_7" x="362" y="62" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s0_8" x="388" y="62" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s0_9" x="414" y="62" width="22" height="20" rx="2" fill="#39ff88"/>
+  <text x="454" y="77" fill="#1f8f4e">100%</text>
+  <text x="516" y="77" fill="#1f8f4e">main language</text>
+  <text x="36" y="109" fill="#39ff88" filter="url(#glow)">linux</text>
+  <rect class="s1_0" x="180" y="94" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s1_1" x="206" y="94" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s1_2" x="232" y="94" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s1_3" x="258" y="94" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s1_4" x="284" y="94" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s1_5" x="310" y="94" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s1_6" x="336" y="94" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s1_7" x="362" y="94" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s1_8" x="388" y="94" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect x="414" y="94" width="22" height="20" rx="2" fill="#14241a"/>
+  <text x="454" y="109" fill="#1f8f4e"> 90%</text>
+  <text x="516" y="109" fill="#1f8f4e">daily driver . terminal-first</text>
+  <text x="36" y="141" fill="#39ff88" filter="url(#glow)">git/github</text>
+  <rect class="s2_0" x="180" y="126" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s2_1" x="206" y="126" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s2_2" x="232" y="126" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s2_3" x="258" y="126" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s2_4" x="284" y="126" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s2_5" x="310" y="126" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s2_6" x="336" y="126" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s2_7" x="362" y="126" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s2_8" x="388" y="126" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect x="414" y="126" width="22" height="20" rx="2" fill="#14241a"/>
+  <text x="454" y="141" fill="#1f8f4e"> 90%</text>
+  <text x="516" y="141" fill="#1f8f4e">branches . prs . review . ci</text>
+  <text x="36" y="173" fill="#39ff88" filter="url(#glow)">c</text>
+  <rect class="s3_0" x="180" y="158" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s3_1" x="206" y="158" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s3_2" x="232" y="158" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s3_3" x="258" y="158" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s3_4" x="284" y="158" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s3_5" x="310" y="158" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect x="336" y="158" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="362" y="158" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="388" y="158" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="414" y="158" width="22" height="20" rx="2" fill="#14241a"/>
+  <text x="454" y="173" fill="#1f8f4e"> 60%</text>
+  <text x="36" y="205" fill="#39ff88" filter="url(#glow)">c++</text>
+  <rect class="s4_0" x="180" y="190" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s4_1" x="206" y="190" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s4_2" x="232" y="190" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s4_3" x="258" y="190" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s4_4" x="284" y="190" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s4_5" x="310" y="190" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect x="336" y="190" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="362" y="190" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="388" y="190" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="414" y="190" width="22" height="20" rx="2" fill="#14241a"/>
+  <text x="454" y="205" fill="#1f8f4e"> 60%</text>
+  <text x="36" y="237" fill="#39ff88" filter="url(#glow)">javascript</text>
+  <rect class="s5_0" x="180" y="222" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s5_1" x="206" y="222" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s5_2" x="232" y="222" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s5_3" x="258" y="222" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s5_4" x="284" y="222" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s5_5" x="310" y="222" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect x="336" y="222" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="362" y="222" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="388" y="222" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="414" y="222" width="22" height="20" rx="2" fill="#14241a"/>
+  <text x="454" y="237" fill="#1f8f4e"> 60%</text>
+  <text x="36" y="269" fill="#39ff88" filter="url(#glow)">java</text>
+  <rect class="s6_0" x="180" y="254" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s6_1" x="206" y="254" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s6_2" x="232" y="254" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s6_3" x="258" y="254" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s6_4" x="284" y="254" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect class="s6_5" x="310" y="254" width="22" height="20" rx="2" fill="#39ff88"/>
+  <rect x="336" y="254" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="362" y="254" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="388" y="254" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="414" y="254" width="22" height="20" rx="2" fill="#14241a"/>
+  <text x="454" y="269" fill="#1f8f4e"> 60%</text>
+  <text x="36" y="301" fill="#39ff88" filter="url(#glow)">flutter</text>
+  <rect class="s7_0" x="180" y="286" width="22" height="20" rx="2" fill="#ffb000"/>
+  <rect class="s7_1" x="206" y="286" width="22" height="20" rx="2" fill="#ffb000"/>
+  <rect class="s7_2" x="232" y="286" width="22" height="20" rx="2" fill="#ffb000"/>
+  <rect x="258" y="286" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="284" y="286" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="310" y="286" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="336" y="286" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="362" y="286" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="388" y="286" width="22" height="20" rx="2" fill="#14241a"/>
+  <rect x="414" y="286" width="22" height="20" rx="2" fill="#14241a"/>
+  <text x="454" y="301" fill="#1f8f4e"> 30%</text>
+  <text x="516" y="301" fill="#1f8f4e">getting started</text>
+  <rect x="1" y="1" width="898" height="330" rx="8" fill="url(#scan)" pointer-events="none"/>
+</svg>

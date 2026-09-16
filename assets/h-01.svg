@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="46" viewBox="0 0 900 46" role="img" aria-labelledby="t">
+  <title id="t">01 about</title>
+  <defs>
+    <filter id="glow" x="-5%" y="-50%" width="110%" height="200%">
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" opacity=".3"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: ui-monospace,'SFMono-Regular','DejaVu Sans Mono',Menlo,Consolas,monospace; font-size: 16px; }
+    .blink { animation: bl 1.05s steps(1) infinite; }
+    @keyframes bl { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    
+  </style>
+  <rect x="1" y="1" width="898" height="44" rx="6" fill="#070b08" stroke="#1f8f4e" stroke-width="1.5"/>
+  <rect x="1" y="1" width="64" height="44" rx="6" fill="#1f8f4e"/>
+  <rect x="40" y="1" width="25" height="44" fill="#1f8f4e"/>
+  <text x="33" y="29" fill="#070b08" text-anchor="middle" style="font-weight:700">01</text>
+  <text x="84" y="29" fill="#39ff88" filter="url(#glow)" style="font-size:18px;font-weight:700;letter-spacing:2px">about</text>
+  <text x="876" y="29" fill="#1f8f4e" text-anchor="end">about.txt<tspan class="blink" fill="#39ff88"> _</tspan></text>
+  <rect x="1" y="1" width="898" height="44" rx="8" fill="url(#scan)" pointer-events="none"/>
+</svg>
