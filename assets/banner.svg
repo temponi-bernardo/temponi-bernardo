@@ -26,7 +26,7 @@
 .l2 { animation: type 0.42s steps(15) 3.6s both; }
 .l3 { animation: type 1.90s steps(68) 4.4s both; }
 .l4 { animation: type 0.40s steps(10) 7.0s both; }
-.l5 { animation: type 1.60s steps(57) 7.6s both; }
+.l5 { animation: type 1.74s steps(62) 7.6s both; }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
     @keyframes b { 50% { opacity: 0; } }
     @keyframes f { 0%,96%,100% { opacity: 1; } 97% { opacity: .82; } 98% { opacity: 1; } 99% { opacity: .9; } }
@@ -48,7 +48,7 @@
   <text class="l2" x="40" y="205" fill="#ffb000" filter="url(#glow)"><tspan fill="#1f8f4e">$ </tspan>cat focus.txt</text>
   <text class="l3" x="40" y="230" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>offensive security . ai-accelerated engineering . speed with rigor</text>
   <text class="l4" x="40" y="260" fill="#ffb000" filter="url(#glow)"><tspan fill="#1f8f4e">$ </tspan>uname -a</text>
-  <text class="l5" x="40" y="285" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>b.sc. computer science @ puc minas . belo horizonte, br<tspan class="blink" fill="#39ff88"> _</tspan></text>
+  <text class="l5" x="40" y="285" fill="#39ff88" filter="url(#glow)"><tspan fill="#1f8f4e">&gt; </tspan>b.sc. computer science @ puc minas . belo horizonte, mg - br<tspan class="blink" fill="#39ff88"> _</tspan></text>
   </g>
   <rect x="2" y="2" width="896" height="316" rx="9" fill="url(#scan)" pointer-events="none"/>
   <rect x="2" y="2" width="896" height="316" rx="9" fill="url(#vig)" pointer-events="none"/>

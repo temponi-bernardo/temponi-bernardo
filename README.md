@@ -10,7 +10,7 @@ c:\> type about.txt
   training .... pentest / offensive security
   method ...... ai-accelerated dev . fast, but verified
   school ...... b.sc. computer science @ puc minas
-  location .... belo horizonte, br
+  location .... belo horizonte, mg - br
 ```
 
 ```text
