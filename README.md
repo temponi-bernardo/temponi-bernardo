@@ -11,7 +11,7 @@
 <img src="assets/h-01.svg" alt="01 about" width="100%">
 
 <p align="center">
-  <img src="assets/about.svg" alt="security-focused developer · vulnerability analysis · secure development · ai-assisted engineering · computer science @ puc minas (6th semester) · belo horizonte, mg - br · learning pentest · open to work" width="100%">
+  <img src="assets/about.svg" alt="security-focused developer · vulnerability analysis · secure development · ai-assisted engineering · computer science @ puc minas (6th semester) · belo horizonte, mg - br · open to work" width="100%">
 </p>
 
 <img src="assets/h-02.svg" alt="02 stack" width="100%">
