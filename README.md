@@ -1,39 +1,39 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Bernardo Temponi — security-focused developer" width="100%">
+  <img src="assets/banner.svg" alt="bernardo temponi — security-focused developer" width="100%">
 </p>
 
 ```text
-C:\> TYPE ABOUT.TXT
+c:\> type about.txt
 
-  NAME ........ Bernardo Temponi
-  ROLE ........ Security-focused developer
-  TRAINING .... Pentest / offensive security
-  METHOD ...... AI-accelerated dev . fast, but verified
-  SCHOOL ...... B.Sc. Computer Science @ PUC Minas
-  LOCATION .... Belo Horizonte, BR
+  name ........ bernardo temponi
+  role ........ security-focused developer
+  training .... pentest / offensive security
+  method ...... ai-accelerated dev . fast, but verified
+  school ...... b.sc. computer science @ puc minas
+  location .... belo horizonte, br
 ```
 
 ```text
-C:\> STACK.EXE /LEVEL
+c:\> stack.exe /level
 
-  Python ...... [##########]  main language
-  C ........... [######----]
-  C++ ......... [######----]
-  JavaScript .. [######----]
-  Java ........ [######----]
-  Flutter ..... [###-------]  getting started
+  python ...... [##########]  main language
+  c ........... [######----]
+  c++ ......... [######----]
+  javascript .. [######----]
+  java ........ [######----]
+  flutter ..... [###-------]  getting started
 
-  Linux ....... [#########-]  daily driver . terminal-first
-  Git/GitHub .. [#########-]  branches . PRs . code review . CI
+  linux ....... [#########-]  daily driver . terminal-first
+  git/github .. [#########-]  branches . prs . code review . ci
 ```
 
 ```text
-C:\> TYPE PRINCIPLES.TXT
+c:\> type principles.txt
 
-  01  Security is a design decision, not a patch.
-  02  Break it before someone else does.
-  03  AI writes fast. Tests decide what ships.
-  04  Less code, fewer holes.
+  01  security is a design decision, not a patch.
+  02  break it before someone else does.
+  03  ai writes fast. tests decide what ships.
+  04  less code, fewer holes.
 ```
 
-<p align="center"><sub><code>EOF — press any key to continue_</code></sub></p>
+<p align="center"><sub><code>eof — press any key to continue_</code></sub></p>
