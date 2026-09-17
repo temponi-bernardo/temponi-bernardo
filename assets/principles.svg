@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="236" viewBox="0 0 900 236" role="img" aria-labelledby="t">
+  <title id="t">principles: security is a design decision, not a patch; find the flaw before someone else does; ai writes fast, tests decide what ships; less code, fewer holes</title>
+  <defs>
+    <filter id="glow" x="-5%" y="-50%" width="110%" height="200%">
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" opacity=".3"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: ui-monospace,'SFMono-Regular','DejaVu Sans Mono',Menlo,Consolas,monospace; font-size: 16px; }
+    .blink { animation: bl 1.05s steps(1) infinite; }
+    @keyframes bl { 50% { opacity: 0; } }
+    .l0 { animation: on .05s steps(1) 0.30s both; }
+    .l1 { animation: on .05s steps(1) 0.55s both; }
+    .l2 { animation: on .05s steps(1) 0.80s both; }
+    .l3 { animation: on .05s steps(1) 1.05s both; }
+    @keyframes on { from { opacity: .08; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="1" y="1" width="898" height="234" rx="8" fill="#070b08" stroke="#1f8f4e" stroke-width="2"/>
+  <path d="M1 30 V9 a8 8 0 0 1 8 -8 H891 a8 8 0 0 1 8 8 V30 Z" fill="#0e1a12"/>
+  <line x1="1" y1="30" x2="899" y2="30" stroke="#1f8f4e" stroke-width="1.5"/>
+  <text x="20" y="20" fill="#1f8f4e" style="font-size:13px">c:\&gt; type principles.txt</text>
+  <text x="880" y="20" fill="#1f8f4e" style="font-size:13px" text-anchor="end">4 lines</text>
+  <g class="l0"><text x="36" y="64" fill="#1f8f4e">01 ..</text><text x="100" y="64" fill="#39ff88" filter="url(#glow)">security is a design decision, not a patch.</text></g>
+  <g class="l1"><text x="36" y="94" fill="#1f8f4e">02 ..</text><text x="100" y="94" fill="#39ff88" filter="url(#glow)">find the flaw before someone else does.</text></g>
+  <g class="l2"><text x="36" y="124" fill="#1f8f4e">03 ..</text><text x="100" y="124" fill="#39ff88" filter="url(#glow)">ai writes fast. tests decide what ships.</text></g>
+  <g class="l3"><text x="36" y="154" fill="#1f8f4e">04 ..</text><text x="100" y="154" fill="#39ff88" filter="url(#glow)">less code, fewer holes.</text></g>
+  <line x1="36" y1="172" x2="864" y2="172" stroke="#1f8f4e" stroke-dasharray="4 6"/>
+  <text x="36" y="204" fill="#1f8f4e">c:\&gt;<tspan class="blink" fill="#39ff88"> _</tspan></text>
+  <text x="864" y="204" fill="#1f8f4e" text-anchor="end">secure by default . tested before shipped</text>
+  <rect x="1" y="1" width="898" height="234" rx="8" fill="url(#scan)" pointer-events="none"/>
+</svg>

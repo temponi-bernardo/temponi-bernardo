@@ -22,14 +22,9 @@
 
 <img src="assets/h-03.svg" alt="03 principles" width="100%">
 
-```text
-c:\> type principles.txt
-
-  01  security is a design decision, not a patch.
-  02  find the flaw before someone else does.
-  03  ai writes fast. tests decide what ships.
-  04  less code, fewer holes.
-```
+<p align="center">
+  <img src="assets/principles.svg" alt="01 security is a design decision, not a patch · 02 find the flaw before someone else does · 03 ai writes fast, tests decide what ships · 04 less code, fewer holes" width="100%">
+</p>
 
 <img src="assets/h-04.svg" alt="04 contributions" width="100%">
 
